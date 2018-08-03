@@ -184,10 +184,10 @@ if has("autocmd")
   augroup END
 
   " disable numbers in terminal windows
-  augroup terminal_numbers
-    au!
-    autocmd TermOpen * setlocal nonumber norelativenumber
-  augroup END
+  "augroup terminal_numbers
+  "  au!
+  "  autocmd TermOpen * setlocal nonumber norelativenumber
+  "augroup END
 
   " remember last location in file, but not for commit messages,
   " or when the position is invalid or inside an event handler,
