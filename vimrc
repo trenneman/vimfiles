@@ -253,7 +253,7 @@ nnoremap <Leader>kcm :KillControlM<CR>
 nnoremap <Leader>cc :w\|:!gcc % -Wall && ./a.out<CR>
 
 " compile example elm program
-nnoremap <silent> <Leader>ce :w\|:!elm-make Main.elm --output app.js<CR>
+nnoremap <silent> <Leader>ce :w\|:!elm make Main.elm --output app.js<CR>
 
 " easy global search
 nnoremap <C-S> :Ag <C-R><C-W><CR>
