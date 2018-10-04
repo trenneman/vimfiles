@@ -1,6 +1,7 @@
 " Plugins {{{
 call plug#begin('~/.vim/plugged')
 
+Plug 'alx741/vim-hindent'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'SirVer/ultisnips'
 Plug 'benmills/vimux'
@@ -302,6 +303,7 @@ let g:elm_format_autosave = 1
 let g:elm_format_fail_silently = 1
 let g:fzf_layout = { 'down': '~30%' }
 let g:goldenview__enable_default_mapping = 0
+let g:hindent_on_save = 1
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
